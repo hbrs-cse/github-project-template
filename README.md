@@ -1,4 +1,4 @@
-# Modellbildung und Simulation 2 - Projektbeschreibung
+# Einführung in GitHub
 
 :loudspeaker: **Lesen Sie dieses Dokument vollständig bis zum Ende!** :loudspeaker:
 
@@ -7,7 +7,7 @@
 
  - Sie demonstrieren, dass Sie mit git vertraut sind.
  - Sie erhalten Einblick in automatisierte Software-Tests
- - Sie verfassen eine Projektbeschreibung für Ihre Ausarbeitung
+[//]: # ( - Sie verfassen eine Projektbeschreibung für Ihre Ausarbeitung
 
 
 ## Abgabe
@@ -25,7 +25,7 @@ Auf Github sind sie nun Mitglied eines Teams. Nutzen Sie Github zur Kommunikatio
 
 <p align="center"><img src="images/team_discussion.gif"/></p>
 
-## Ihre Aufgabe
+## Ihre Aufgabe)
 
 ### Vorarbeit in Eigenregie:
 
@@ -48,7 +48,7 @@ Auf Github sind sie nun Mitglied eines Teams. Nutzen Sie Github zur Kommunikatio
 
 Die folgenden beiden Aufgaben bauen nicht aufeinander auf und können parallel, bzw. in einer beliebigen Reihenfolge bearbeitet werden.
 
- ### Aufgabe 1.1: Bugfix und automatische Tests
+ ## Bugfix und automatische Tests
 
  - Mit jedem *push* in dieses repository werden automatische Tests für den Programmcode im `src` Verzeichnis durchgeführt. An dem roten Kreuz nebem dem letzten *commit* stellen Sie fest, dass mindestens einer der Tests nicht erfolgreich war:
    
@@ -64,7 +64,7 @@ Die folgenden beiden Aufgaben bauen nicht aufeinander auf und können parallel, 
     - Zeilen 30-36: Die Funktion `assertEqual` hat zwei Eingaben bekommen, von  denen erwartet wurde, dass sie gleich sind. Offensichtlich sind sie es aber nicht: Die erste Eingabe ist 15, die zweite ist 120. 
     - Es ist Zeit sich den Test genauer anzuschauen:
 
-      https://github.com/joergbrech/modsim2-projektbeschreibung/blob/3201fc1044e119ea0e818a64289d4a9f065efae3/tests/test_fac.m#L21-L23
+      https://github.com/hbrs-cse/github-project-template/blob/3201fc1044e119ea0e818a64289d4a9f065efae3/tests/test_fac.m#L21-L23
 
       Offensichtlich wird getestet, ob `fac(5)` 120 ergibt. Tatsächlich liefert die Funktion aber 15 als Rückgabewert für die Eingabe 5. Offenslicht hat die Funktion `fac`, die in [`src/fac.m`](src/fac.m) definiert ist einen bug.
 
@@ -174,7 +174,7 @@ Die folgenden beiden Aufgaben bauen nicht aufeinander auf und können parallel, 
 
 Ich lege Ihnen sehr ans Herzen, diesen Workflow für ihre Projektarbeit zu übernehmen. Arbeiten Sie mit dem Issue tracker. Vermeiden Sie *commit*s in den `master` branch. Arbeiten sie mit branches und *Pull Requests*. Schreiben Sie Tests für ihren Matlab-Code.
 
- ### Aufgabe 1.2: Projektbeschreibung
+[//]: # ( ## Projektbeschreibung
 
  In diesem Semester müssen Sie eine Projektarbeit in einem Team absolvieren. Sie suchen sich selbstständig eine Fragestellung oder ein Problem aus, welche(s) sich mit den Methoden aus den Vorlesungen Modellbildung und Simulation 1 und 2 beantworten bzw. lösen lässt. 
 
@@ -183,13 +183,13 @@ Ich lege Ihnen sehr ans Herzen, diesen Workflow für ihre Projektarbeit zu über
   - das Thema auszuformulieren und sich Gedanken über verwendete Literatur, Methoden und Software zu machen
   - sich einen groben Projektplan zumachen, das Projekt in kleinere Teilaufgaben aufzuteilen und sich Gedanken über mögliche Risiken und Stolperfallen zu machen.
 
- Füllen Sie die fehlenden Inhalte in der Datei [`PROJEKTBESCHREIBUNG.md`](PROJEKTBESCHREIBUNG.md) aus. Die Projektbeschreibung sollte ungefähr in der Größenordnung von zehn Sätzen sein. Verwenden Sie hierzu gerne den Pull Request Workflow aus Aufgabe 1.1 um die Datei im Team zu bearbeiten. Sobald Sie mit ihrer Projektbeschreibung fertig sind, eröffnen Sie bitte ein Issue im Issue Tracker mit dem Titel `Projektbeschreibung absegnen` und weisen es mir (@joergbrech) zur Bearbeitung zu. **Planen Sie genug Puffer vor der Deadline ein: Die Aufgabe gilt als erfüllt, wenn ich die Projektbeschreibung abgesegnet habe!**
+ Füllen Sie die fehlenden Inhalte in der Datei [`PROJEKTBESCHREIBUNG.md`](PROJEKTBESCHREIBUNG.md) aus. Die Projektbeschreibung sollte ungefähr in der Größenordnung von zehn Sätzen sein. Verwenden Sie hierzu gerne den Pull Request Workflow aus Aufgabe 1.1 um die Datei im Team zu bearbeiten. Sobald Sie mit ihrer Projektbeschreibung fertig sind, eröffnen Sie bitte ein Issue im Issue Tracker mit dem Titel `Projektbeschreibung absegnen` und weisen es mir (@joergbrech) zur Bearbeitung zu. **Planen Sie genug Puffer vor der Deadline ein: Die Aufgabe gilt als erfüllt, wenn ich die Projektbeschreibung abgesegnet habe!**)
 
-## Troubleshooting
+[//]: # (## Troubleshooting
 
 Wenn Sie Schwierigkeiten haben, öffnen Sie bitte im Issue Tracker ein neues Issue und weisen sie es mir (@joergbrech) zur Bearbeitung zu.
 
-<p align="center"><img src="images/issue_tracker.gif"></p>
+<p align="center"><img src="images/issue_tracker.gif"></p>)
 
 ## Zusatzinformationen
 
