@@ -2,6 +2,8 @@
 
 :loudspeaker: **Lesen Sie dieses Dokument vollständig bis zum Ende!** :loudspeaker:
 
+Dieses Repository basiert auf einer [Aufgabe von joergbrech](https://github.com/joergbrech/modsim2-projektbeschreibung).
+
 
 ## Inhalt der Aufgabe
 
